@@ -21,7 +21,7 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <p style={{ color: "white" }}>
-          <strong className="purple">Demo credentials for Projects:</strong>
+          <strong className="purple">Demo credentials</strong> for Projects:
         </p>
         <p style={{ color: "white" }}>
         Email : <strong className="purple">Demo@123.com</strong>
