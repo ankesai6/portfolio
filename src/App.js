@@ -6,7 +6,7 @@ import About from "./components/About/About";
 import Skills from "./components/Skills/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
-import Resume from "./components/Resume/Resume";
+import Home2 from "./components/Resume/Resume";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./style.css";
 import "./App.css";
@@ -33,7 +33,7 @@ function App() {
           <Route path="/project" component={Projects} />
           <Route path="/about" component={About} />
           <Route path="/skills" component={Skills} />
-          <Route path="/resume" component={Resume} />
+          <Route path="/resume" component={Home2} />
         </Switch>
         <Footer />
       </div>
