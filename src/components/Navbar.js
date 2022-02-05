@@ -10,6 +10,7 @@ import {
   AiOutlineUser,
 } from "react-icons/ai";
 
+import { GiSkills } from "react-icons/gi";
 import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
@@ -75,7 +76,7 @@ function NavBar() {
 
            <Nav.Item>
               <Nav.Link as={Link} to="/resume" onClick={() => updateExpanded(false)}>
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Contact
+                <GiSkills style={{ marginBottom: "2px" }} /> Contact
               </Nav.Link>
             </Nav.Item>
            
