@@ -25,12 +25,11 @@ function Home() {
                 I'M
                 <strong className="main-name"> ANKE SAIPRASAD</strong>
               </h1>
-                <Type />
-              <div style={{ padding: 50,textAlign: "left" }}>
+               <div style={{ padding: 40,textAlign: "left" }}>
                 <Type />
               </div>
          
-<Row style={{ justifyContent: "center", position: "relative"}}>
+          <Row style={{ justifyContent: "center", position: "relative"}}>
           <Button variant="primary" href={ResumePdf} target="_blank">
             <AiOutlineDownload />
             &nbsp;Resume
