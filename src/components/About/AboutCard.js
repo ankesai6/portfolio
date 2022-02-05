@@ -20,7 +20,7 @@ function AboutCard() {
             </b>
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Apart from coding, some other activities that I love to do! 
           </p>
           <ul>
             <li className="about-activity">
@@ -42,6 +42,6 @@ function AboutCard() {
       </Card.Body>
     </Card>
   );
-}
+} 
 
 export default AboutCard;
