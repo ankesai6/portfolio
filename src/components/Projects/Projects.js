@@ -21,13 +21,13 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <p style={{ color: "white" }}>
-          Demo credentials for Projects:
+          <strong className="purple">Demo credentials for Projects:</strong>
         </p>
         <p style={{ color: "white" }}>
-          Email:Demo@123.com
+           <strong className="purple">Email</strong>:Demo@123.com
         </p>
         <p style={{ color: "white" }}>
-          Password:Demo@123
+      <strong className="purple">Password</strong>:Demo@123
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
