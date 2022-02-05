@@ -64,7 +64,7 @@ function NavBar() {
            
             <Nav.Item>
               <Nav.Link as={Link} to="/skills" onClick={() => updateExpanded(false)}>
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> Skills
+                <GiSkills style={{ marginBottom: "2px" }} /> Skills
               </Nav.Link>
             </Nav.Item>
 
@@ -76,7 +76,7 @@ function NavBar() {
 
            <Nav.Item>
               <Nav.Link as={Link} to="/resume" onClick={() => updateExpanded(false)}>
-                <GiSkills style={{ marginBottom: "2px" }} /> Contact
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Contact
               </Nav.Link>
             </Nav.Item>
            
