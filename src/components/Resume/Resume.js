@@ -1,11 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-
-import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,} from "react-icons/ai";
-import { AiOutlineMail } from "react-icons/ai";
+import {AiFillGithub, AiOutlineTwitter,AiOutlineMail} from "react-icons/ai";
 import Particle from "../Particle";
 function Resume() {
       <Container fluid className="home-about-section" id="about">
