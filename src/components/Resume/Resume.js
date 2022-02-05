@@ -1,4 +1,3 @@
-import Resumecontent from "./ResumeContent";
 import ResumePdf from "../../Assets/Resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
