@@ -29,6 +29,9 @@ function AboutCard() {
             <li className="about-activity">
               <ImPointRight /> Listening Music
             </li>
+           <li className="about-activity">
+              <ImPointRight /> Playing Videogames
+            </li>
           </ul>
 
           <p style={{ marginBlockEnd: 0, color: "#14FFEC", opacity: 0.7 }}>
