@@ -591,6 +591,16 @@ html {
   }
 }
 /* --------- */
+
+.contact-section {
+  position: relative;
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding-bottom: 30px !important;
+  padding-top: 30px !important;
+  background-image: var(--section-background-color) !important;
+}
+
 .contact-about-section {
   z-index: +1000;
   position: relative;
