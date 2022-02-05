@@ -14,13 +14,16 @@ function ProjectCards(props) {
         </Card.Text>
 
 <div class="btn-group">
-        <Button variant="link" href={props.link1} target="_blank">
+    
+       <Button variant="primary" href={props.link} target="_blank">
+          <BiLinkExternal />Live 
+        </Button>
+
+        <Button variant="primary" href={props.link1} target="_blank">
           <BiLinkExternal /> FrontEnd
         </Button>
-        <Button variant="primary" href={props.link} target="_blank">
-          <BiLinkExternal />    Go Live 
-        </Button>
-        <Button variant="link" href={props.link2} target="_blank">
+     
+        <Button variant="primary" href={props.link2} target="_blank">
           <BiLinkExternal /> BackEnd
         </Button>
 </div>
