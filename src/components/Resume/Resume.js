@@ -18,12 +18,12 @@ function Home2() {
     
       <Container>
      <Row>
-          <Col md={12} className="contact-about-social">
+          <Col md={12} className="home-about-social">
             <h1>Contact</h1>
             <p>
               Feel free to <span className="purple"> Connect </span>with me
             </p>
-            <ul className="contact-about-social-links">
+            <ul className="home-about-social-links">
               
               <li className="social-icons">
                 <a
@@ -79,11 +79,11 @@ function Home2() {
           </Button>
         </Row>
         <Row>
-          <Col md={8} className="contact-about-description">
+          <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
               <span className="purple"></span> 
             </h1>
-            <p className="contact-about-body">
+            <p className="home-about-body">
               I'm Programmer who turns coffee into code.😉
               <br />
               <br />I am fluent in classics like
