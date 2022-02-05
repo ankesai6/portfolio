@@ -10,8 +10,8 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Sai Prasad </span>
             from <span className="purple"> Anantapur, AndhraPradesh.</span>
-            <br />I am B.Tech Graduate of Computer Science Engineering
-             at SJCIT, Chickballapur. I'm{" "}
+            <br />I am <span className="purple">B.Tech</span> Graduate of Computer Science Engineering
+             at <span className="purple">SJCIT,</span> Chickballapur. I'm{" "}
             <b className="purple"> Web developer</b> and
             <b className="purple"> Competative Programming enthusiast.</b>
             <br />I am looking forward to gain competency and exposure in{" "}
