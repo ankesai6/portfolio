@@ -56,7 +56,7 @@ function Resume() {
         </Row>
       </Container>
     </Container>
-  );
+
   
 }
 
