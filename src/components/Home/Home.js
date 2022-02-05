@@ -5,6 +5,10 @@ import Particle from "../Particle";
 
 import Type from "./Type";
 
+import ResumePdf from "../../Assets/Resume.pdf";
+import Button from "react-bootstrap/Button";
+import { AiOutlineDownload } from "react-icons/ai";
+
 function Home() {
   return (
     <section>
@@ -25,7 +29,13 @@ function Home() {
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
               </div>
-          
+         
+<Row style={{ justifyContent: "center", position: "relative"}}>
+          <Button variant="primary" href={ResumePdf} target="_blank">
+            <AiOutlineDownload />
+            &nbsp;Resume
+          </Button>
+        </Row>
         
 
             </Col>
@@ -33,6 +43,7 @@ function Home() {
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img src={homeLogo} alt="home pic" className="img-fluid" />
             </Col>
+
 
           </Row>
         </Container>
