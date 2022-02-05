@@ -9,6 +9,7 @@ import Tilt from "react-parallax-tilt";
 import {AiFillGithub,AiOutlineTwitter,} from "react-icons/ai";
 import { AiOutlineMail } from "react-icons/ai";
 import Particle from "../Particle";
+import Button from "react-bootstrap/Button";
 
 
 function Home2() {
