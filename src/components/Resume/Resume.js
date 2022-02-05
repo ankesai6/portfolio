@@ -13,14 +13,16 @@ import Button from "react-bootstrap/Button";
 
 function Home2() {
   return (
-    <Container fluid className="resume-section-section" id="about">
+    <Container fluid className="home-about-section" id="about">
+    
       <Particle />
+    
       <Container>
      <Row>
           <Col md={12} className="home-about-social">
             <h1>Contact</h1>
             <p>
-              Feel free to <span className="purple">Connect </span>with me
+              Feel free to <span className="purple"> Connect </span>with me
             </p>
             <ul className="home-about-social-links">
               
@@ -83,7 +85,7 @@ function Home2() {
               <span className="purple"></span> 
             </h1>
             <p className="home-about-body">
-              I'm Programmer that turns coffee into code.😉
+              I'm Programmer who turns coffee into code.😉
               <br />
               <br />I am fluent in classics like
               <i>
