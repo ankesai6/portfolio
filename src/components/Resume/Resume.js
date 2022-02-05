@@ -11,7 +11,7 @@ import Particle from "../Particle";
 import Button from "react-bootstrap/Button";
 
 
-function Home2() {
+function Resume() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Particle />
@@ -69,7 +69,7 @@ function Home2() {
     </Container>
   );
 }
-export default Home2;
+export default Resume;
        
 
 
