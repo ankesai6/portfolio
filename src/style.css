@@ -595,8 +595,8 @@ html {
 /* --------- */
 .resume-section {
   position: relative !important;
-  padding-top: 110px !important;
-  padding-bottom: 30px !important;
+  padding-bottom: 70px !important;
+  padding-top: 70px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
 }
