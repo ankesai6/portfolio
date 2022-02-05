@@ -13,7 +13,7 @@ import Button from "react-bootstrap/Button";
 
 function Home2() {
   return (
-    <Container fluid className="home-about-section" id="about">
+    <Container fluid className="resume-section-section" id="about">
       <Particle />
       <Container>
      <Row>
