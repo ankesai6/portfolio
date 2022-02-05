@@ -12,18 +12,18 @@ import Button from "react-bootstrap/Button";
 
 function Home2() {
   return (
-    <Container fluid className="home-about-section" id="about">
+    <Container fluid className="contact-about-section" id="about">
     
       <Particle />
     
       <Container>
      <Row>
-          <Col md={12} className="home-about-social">
+          <Col md={12} className="contact-about-social">
             <h1>Contact</h1>
             <p>
               Feel free to <span className="purple"> Connect </span>with me
             </p>
-            <ul className="home-about-social-links">
+            <ul className="contact-about-social-links">
               
               <li className="social-icons">
                 <a
@@ -79,11 +79,11 @@ function Home2() {
           </Button>
         </Row>
         <Row>
-          <Col md={8} className="home-about-description">
+          <Col md={8} className="contact-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
               <span className="purple"></span> 
             </h1>
-            <p className="home-about-body">
+            <p className="contact-about-body">
               I'm Programmer who turns coffee into code.😉
               <br />
               <br />I am fluent in classics like
@@ -113,7 +113,7 @@ function Home2() {
               </i>
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
+          <Col md={4} className="Avtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
