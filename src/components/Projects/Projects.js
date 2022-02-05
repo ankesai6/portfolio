@@ -20,6 +20,11 @@ function Projects() {
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
         </p>
+        <p style={{ color: "white" }}>
+          Demo credentials for Projects:<br>
+            Email:Demo@123.com<br>
+            Password:Demo@123<br>
+        </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
