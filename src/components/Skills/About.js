@@ -1,9 +1,9 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
-import laptopImg from "../../Assets/about.svg";
+
 import Toolstack from "./Toolstack";
 
 function Skills() {
