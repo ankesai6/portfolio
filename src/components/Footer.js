@@ -1,9 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-} from "react-icons/ai";
+import {AiFillGithub,AiOutlineTwitter,AiFillLinkedin} from "react-icons/ai";
 import { AiOutlineMail } from "react-icons/ai";
 
 function Footer() {
@@ -52,6 +49,18 @@ function Footer() {
                   <AiOutlineTwitter />
                 </a>
               </li>
+             
+              <li className="social-icons">
+                <a
+                  href="https://www.linkedin.com/in/anke-saiprasad-b5594a22a/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiFillLinkedin />
+                </a>
+              </li>
+
           </ul>
         </Col>
       </Row>
