@@ -30,7 +30,7 @@ function Home() {
                 <Type />
               </div>
          
-<Row style={{ justifyContent: "center", position: "relative"}}>
+<Row style={{ justifyContent: "center", position: "absolute"}}>
           <Button variant="primary" href={ResumePdf} target="_blank">
             <AiOutlineDownload />
             &nbsp;Resume
